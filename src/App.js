@@ -13,7 +13,7 @@ const App = () => {
         <h1 className="absolute md:text-3xl xs:text-lg   mt-28 text-[#293356] font-extrabold tracking-wider">Simple, traffic-based pricing</h1>
         <p className="absolute md:mt-40 xs:mt-36 text-[#848EAD] text-base md:font-bold xs:text-center md:text-start">Sign-up for our 30-day trial.<br className="md:hidden" /> No credit card required. </p>
       </div>
-      <div className="w-full h-1/2 flex justify-center">
+      <div className="w-full h-1/2 flex justify-center bg-[#FFFFFF]">
       <Card />
       </div>
     </div>

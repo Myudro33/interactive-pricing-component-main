@@ -72,7 +72,7 @@ const Card = () => {
   ];
 
   return (
-    <div className="md:w-[34rem] md:h-[25rem] xs:h-[28rem] xs:w-[85%] flex flex-col xs:items-center absolute bg-white mx-auto -translate-y-52 md:mt-5 xs:mt-36 rounded-xl md:p-10 xs:p-4 shadow-lg">
+    <div className="md:w-[34rem] md:h-[25rem] xs:h-[28rem] xs:w-[85%] flex flex-col xs:items-center absolute bg-[#FFFFFF] mx-auto -translate-y-52 md:mt-5 xs:mt-36 rounded-xl md:p-10 xs:p-4 shadow-lg">
       <div className="flex md:flex-row xs:flex-col w-full justify-between items-center">
         <h1 className="text-[#848EAD] tracking-wider md:font-bold">
           {pageViews === "1000K" ? "1M" : pageViews} PAGEVIEWS
